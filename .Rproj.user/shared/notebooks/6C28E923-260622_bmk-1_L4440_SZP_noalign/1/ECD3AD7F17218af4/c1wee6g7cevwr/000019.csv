@@ -1,6 +1,0 @@
-"0","max_intensities <- total_align_long %>%"
-"0","  filter(!grepl(""ch1"", unique_id)) %>% # filter out rows that contain set-3 in ch1"
-"0","  group_by(unique_id) %>%"
-"0","  slice_max(intensity, n = 1, with_ties = FALSE)"
-"0",""
-"0","write_csv(max_intensities, ""bmk-1_L4440_ch2_max_intensities.csv"")"
