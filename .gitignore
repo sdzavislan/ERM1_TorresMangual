@@ -58,4 +58,7 @@ renv/staging/
 
 # macOS
 .DS_Store
+<<<<<<< HEAD
 *.html
+=======
+>>>>>>> 827702cd91b303abc0ccdc6384318e73d4225743
